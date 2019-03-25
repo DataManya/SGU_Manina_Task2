@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.rectangle {
+  position: absolute;
+  width: 35%;
+  padding: 3px; /* Поля вокруг текста */
+  margin: 30px; /* Отступы вокруг */
+  background: rgb(185, 185, 185);
+  top: 20px;
+ }
+
+.first_circle {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  margin: 30px;
+  line-height: 50px;
+  text-align: center;
+  background: rgb(186, 233, 98); 
+}
+
+.second_circle {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  margin: 30px; /* Отступы вокруг */
+  line-height: 50px;
+  text-align: center;
+  background: rgb(186, 233, 98); 
+}
+
+.third_circle {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  margin: 30px; /* Отступы вокруг */
+  line-height: 50px;
+  text-align: center;
+  background: rgb(186, 233, 98); 
+}
+
+.fourth_circle {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 30px; /* Отступы вокруг */
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  background: rgb(165, 44, 159);
+}
+
+.fifth_circle {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 30px; /* Отступы вокруг */
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  background: rgb(185, 185, 185);
+}
