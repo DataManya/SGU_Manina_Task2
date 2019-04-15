@@ -1,0 +1,40 @@
+.background {
+  height:850px;   
+  background-repeat:no-repeat;
+  background-position: top center;
+}
+  
+  input {
+    display:none;
+}
+
+  label { 
+  margin:0; 
+  padding:0; 
+  float:left; 
+  margin-right:6px;
+  width:10px; 
+  height:10px; 
+  background:black; 
+  border-radius:10px; 
+  border:1px solid white; 
+  position:relative; 
+  left:50%;
+  top:355px; 
+}
+  
+  #radio1:checked ~ .label1, 
+  #radio2:checked ~ .label2,
+  #radio3:checked ~ .label3 , 
+  #radio4:checked ~ .label4,
+  #radio5:checked ~ .label5 {
+  background:red;
+  box-shadow:0 0 10px 3px white;
+  
+  }
+  #radio1:checked ~ .background {background-image:url("river.jpg");}
+  #radio2:checked ~ .background {background-image:url("river1.jpg");}
+  #radio3:checked ~ .background {background-image:url("river2.jpg");}
+  #radio4:checked ~ .background {background-image:url("river3.jpg");}
+  #radio5:checked ~ .background {background-image:url("river4.jpg");}
+  
