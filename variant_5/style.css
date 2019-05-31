@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+text-decoration: none;/*Убираем подчеркивание у ссылок*/
+color: blue;
+}
+
+.menu, ul {
+list-style: none;
+}
+
+.menu{
+position: relative;
+margin: 30px;
+}
+
+.menu-item{
+padding: 5px;
+float: left;
+margin-right: 10px;
+}
+
+.hidden-menu {
+display: none;
+margin-top: 5px;
+padding:5px;
+width: 120px;
+}
+
+.menu-item:hover .hidden-menu{/*При выделении пункта курсором мыши отображается подменю*/
+display: block;
+}
+
+.edit {/*чтобы не отъезжала "Правка"*/
+position: absolute;
+left: 80px;
+}
+
+.file>a, .edit>a{
+padding:5px;
+text-decoration: underline;
+color: blue;
+}
+
+.file:hover>a, .edit:hover>a{/*При наведении на "Файл" или "Правка"*/
+color: black;
+text-decoration:none;
+border-radius: 5px 5px 0 0;
+}
+
+.menu-item:hover>.hidden-menu, .menu-item:hover>a{
+box-shadow: 0 0 5px grey;
+}
+
+ul a{ 
+display: block;
+}
+
+.hidden-menu a:hover{
+color: white;
+box-shadow: none;
+background: blue;
+}
+
+.title {
+position: relative;
+}
+
+.menu-item:hover>.title::after{
+position: absolute;
+content:"";
+width: 100%;
+height:10px;
+left:0;
+bottom: -5px;
+background: white;
+}
